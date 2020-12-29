@@ -1,0 +1,65 @@
+
+.home {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 4em; height: 4em;
+    margin: -4em;
+}
+.about {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 4em; height: 4em;
+    margin: -4em;
+}
+.projects {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 4em; height: 4em;
+    margin: -4em;
+}
+.activities {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 4em; height: 4em;
+    margin: -4em;
+}
+.blog {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 4em; height: 4em;
+    margin: -4em;
+}
+.contact {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 4em; height: 4em;
+    margin: -4em;
+}
+
+.center {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 4em; height: 4em;
+    margin: -6em;
+}
+.round { display: block; width: 200%; box-shadow: 5ch; }
+.home { transform: rotate(90deg) translate(-14em) rotate(-90deg); } /* 12em = half the width of the wrapper */
+.projects { transform: rotate(30deg) translate(14em) rotate(-30deg); }
+.about { transform: rotate(330deg) translate(14em) rotate(-330deg); }
+.activities { transform: rotate(270deg) translate(-14em) rotate(-270deg) }
+.contact { transform: rotate(210deg) translate(14em) rotate(-210deg); }
+.blog { transform: rotate(150deg) translate(14em) rotate(-150deg); }
+.centerimg{display: block; width: 300%; }
+
+
+body{
+  background-image: url(images/background4.png);
+  background-size: cover;  
+}
