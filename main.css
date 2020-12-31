@@ -3,51 +3,51 @@
     display: block;
     position: absolute;
     top: 50%; left: 50%;
-    width: 4em; height: 4em;
-    margin: -4em;
+    width: 4%; height: 4%;
+    margin: -4%;
 }
 .about {
     display: block;
     position: absolute;
     top: 50%; left: 50%;
-    width: 4em; height: 4em;
-    margin: -4em;
+    width: 4%; height: 4%;
+    margin: -4%;
 }
 .projects {
     display: block;
     position: absolute;
     top: 50%; left: 50%;
-    width: 4em; height: 4em;
-    margin: -4em;
+    width: 4%; height: 4%;
+    margin: -4%;
 }
 .activities {
     display: block;
     position: absolute;
     top: 50%; left: 50%;
-    width: 4em; height: 4em;
-    margin: -4em;
+    width: 4%; height: 4%;
+    margin: -4%;
 }
 .blog {
     display: block;
     position: absolute;
     top: 50%; left: 50%;
-    width: 4em; height: 4em;
-    margin: -4em;
+    width: 4%; height: 4%;
+    margin: -4%;
 }
 .contact {
     display: block;
     position: absolute;
     top: 50%; left: 50%;
-    width: 4em; height: 4em;
-    margin: -4em;
+    width: 4%; height: 4%;
+    margin: -4%;
 }
 
 .center {
     display: block;
     position: absolute;
     top: 50%; left: 50%;
-    width: 4em; height: 4em;
-    margin: -6em;
+    width: 4%; height: 4%;
+    margin: -6%;
 }
 .round { display: block; width: 200%; box-shadow: 5ch; }
 .home { transform: rotate(90deg) translate(-14em) rotate(-90deg); } /* 12em = half the width of the wrapper */
@@ -60,6 +60,7 @@
 
 
 body{
-  background-image: url(images/background4.png);
-  background-size: cover;  
+  background-color: black;
+  background-size: cover; 
 }
+
