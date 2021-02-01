@@ -1,0 +1,109 @@
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #f3c6b1;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar start here  */
+.sidebar{
+    position: fixed;
+    background: #ed5e1c;
+    width: 30%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.sidebar h2{
+    text-align: center;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #e25413;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.sidebar h3{
+    text-align: center;
+    font-size: 19px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #ffffff;
+    background: #e25413;
+    padding: 5px;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+    
+}
+
+.sidebar ul li a{
+    color: #ffffff;
+    padding: 0 5%;
+    margin-bottom: 20%;
+    
+
+}
+.sidebar ul li a:hover{
+    color: #000000;
+    margin-left: 20px;
+    transition: 0.4s;
+    
+   
+}
+
+.media {
+    color: #000000;
+    margin-bottom: 50px;
+    font-size: larger;
+  } 
+/* Sidebar end Here  */
+.icon-bar {
+    width:100%;
+    position:absolute;
+    text-align: center;
+    margin-bottom: 4px;
+    bottom:0;
+    font-style: italic;
+    }
+
+/* Main Content Section Start Here  */
+
+.main{
+    margin-left: 30%;
+    padding: 5px;
+}
+
+.main iframe{
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    left: 30%;
+    width: 70%;
+    height: 100%;
+}
+
+.main h2{
+    margin-top: 20px;
+}
+.centerimg{display: block; width: 75%;  }
+.center {
+    
+    display: block;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 50px;
+   
+    
+}
