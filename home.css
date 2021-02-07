@@ -136,7 +136,8 @@ color:#B2BEB5 ;
 .main p{
     color: #374719;
     font-style: oblique;
-    font-weight: 500;
+    font-weight: 400;
+    font-size: large;
 }
 
 .projectStatus{
