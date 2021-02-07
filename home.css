@@ -16,7 +16,7 @@ body{
 .sidebar{
     position: fixed;
     background:  #B1C294;
-    width: 30%;
+    width: 32%;
     height: 100%;
     top: 0;
     left: 0;
@@ -83,7 +83,7 @@ body{
 /* Main */
 
 .main{
-    margin-left: 30%;
+    margin-left: 37%;
     padding: 5px;
     margin-top: 60px;
     margin-bottom:60px;
@@ -94,7 +94,7 @@ body{
     top: 0;
     overflow: hidden;
     left: 30%;
-    width: 70%;
+    width: 68%;
     height: 100%;
 }
 
@@ -132,13 +132,11 @@ color:#B2BEB5 ;
     height: 10px;
     text-align: center;
     margin-top: 20px;
-    margin-left: 5%;
 }
 .main p{
     color: #374719;
     font-style: oblique;
     font-weight: 500;
-    margin: 5%;
 }
 
 .projectStatus{
@@ -147,7 +145,6 @@ color:#B2BEB5 ;
     font-size:10pt;
     font-family:Roboto;
     color:#377da2;
-    margin-left: 5%;
 }
 .projectTitle{
    font-style:normal;
@@ -155,7 +152,6 @@ color:#B2BEB5 ;
    font-size:11pt;
    font-family:Roboto Light;
    color:#455a21;
-   margin-left: 5%;
 }
 .projectLink{
     font-style:italic;
@@ -171,5 +167,4 @@ color:#B2BEB5 ;
    font-size:11pt;
    font-family:Roboto Light;
    color:#455a21;
-   margin-left: 5%;
 }
