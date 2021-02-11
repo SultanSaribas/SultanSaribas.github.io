@@ -6,6 +6,9 @@
     text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #dbe4cb;
     box-sizing: border-box;
@@ -83,7 +86,7 @@ body{
 /* Main */
 
 .main{
-    margin-left: 37%;
+    margin-left: 35%;
     padding: 5px;
     margin-top: 60px;
     margin-bottom:60px;
