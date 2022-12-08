@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV|Sultan SARIBAŞ</title>
-    <link rel="stylesheet" href="home.css" />
+    <title>About|Sultan SARIBAŞ</title>
     <link rel="icon" href="/images/tab_icon.png">
+    <link rel="stylesheet" href="home.css" />
     <script src="https://kit.fontawesome.com/f82f750da0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="sidebar">
-        <a href='index.html' class='center'><img class="centerimg" id="shine" alt="" src='images/13.png'></a>
+        <a href='index.php' class='center'><img class="centerimg" id="shine" alt="" src='images/13.png'></a>
         <ul class="nav">
             <li>
                 <a href="#">
@@ -22,19 +22,19 @@
             </li>
             
             <li>
-                <a href="index.html">
+                <a href="index.php">
                     <i class="fas fa-user-circle"></i>
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="projects.html">
+                <a href="projects.php">
                     <i class="fas fa-laptop-code"></i>
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="resume.html">
+                <a href="CV/SultanSarıbaş_CV_Website.pdf" target="_blank">
                     <i class="far fa-file"></i>
                     <span>Resume</span>
                 </a>
@@ -59,24 +59,22 @@
                 <i class="fa-brands fa-medium">
                 </i>
             </a>
+            <a href='https://www.hackerrank.com/saribassultan' target="_blank" class='media'>
+                <i class="fab fa-hackerrank">
+                </i>
+            </a>
             <a href=' https://telegram.me/ssultii' target="_blank" class='media'>
                 <i class="fab fa-telegram-plane">
                 </i>
             </a>
-            <a href='https://instagram.com/s_saribass' target="_blank" class='media'>
-                <i class="fab fa-instagram">                  
-                </i>
-            </a>
+            
         </div>
         <div class="icon-bar" style="font-size: xx-small;">Made With
             <i class="fas fa-heart" style="font-size: xx-small;">                
             </i>
         </div>
     </div>
-    
-    <div class="main">
-        <iframe  type="application/pdf" src="CV/SultanSarıbaş_CV_Website.pdf" allowfullscreen FRAMEBORDER="no" BORDER="0" SCROLLING="no"></iframe>    
-    </div>
+
 </body>
 
 </html>
